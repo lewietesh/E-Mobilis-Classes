@@ -1,0 +1,25 @@
+Jinja documentation tutorial
+block_start_string
+The string marking the beginning of a block. Defaults to '{%'.
+
+block_end_string
+The string marking the end of a block. Defaults to '%}'. --for
+expressions and logic like the for loop and the while loop
+
+variable_start_string
+The string marking the beginning of a print statement. Defaults to '{{'.
+
+variable_end_string
+The string marking the end of a print statement. Defaults to '}}'. - they output the result of an expression or variable to the end user
+
+omment_start_string
+The string marking the beginning of a comment. Defaults to '{#'.
+
+comment_end_string
+The string marking the end of a comment. Defaults to '#}'.
+
+If you need to render a block from the base template, use a super block. It gives back the result of the parent block:
+{%block sidebar%}
+<h3> </h3>
+{{super() }}
+{% endblock%}

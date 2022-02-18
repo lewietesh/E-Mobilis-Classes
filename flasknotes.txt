@@ -1,0 +1,9 @@
+virtual environments in python:
+
+for installing dependacies - it helps develop projects based on specific dependancies
+the virtual environments has to be activated and can also be deactivated
+
+decorators is a function that defines what should happen when other functions are called
+
+
+
